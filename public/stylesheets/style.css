@@ -228,6 +228,13 @@ li a{
   flex-wrap: wrap;
 }
 
+#carouselExampleIndicators{
+  width: 75%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
 
 
 
