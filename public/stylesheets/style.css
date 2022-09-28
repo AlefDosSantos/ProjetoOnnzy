@@ -257,3 +257,51 @@ li a{
 
 
 /*Inicio da Pagina sobre*/
+
+.text-sobre{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif
+}
+.texto{
+  text-align:justify;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-top: 3%;
+  
+  
+} 
+.imagen-sobre{
+ height: 100%;
+ width: 100%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
+
+/*Inicio Pagina Trabalhe Conosco*/
+.titulo{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.texto-02{
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: justify;
+ width: 50%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 19px;
+ padding-top: 3%;
+} 
+
+.soluçoes{
+ height: 100%;
+ width: 100%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
