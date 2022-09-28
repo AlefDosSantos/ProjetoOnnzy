@@ -1,5 +1,4 @@
 
-
 /* Inicio partials header css */
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&display=swap');
@@ -8,27 +7,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-#mkt-topo {
-  display: block;
-  height: 42px;
-  width: 100%;
-  padding: 1px 0;
-  background: #111111 url(https://img.wine.com.br/optimize/2022/topo/16-08-22-pendura-frete-gratis.gif) no-repeat center center;
-  text-decoration: none;
-  font-size: 50px;
-}
-
 .top-marketing{
 background-color: #111111;
-padding: 15px 15px 10px 15px;
 color: white;
 text-align: center;
 font-family: 'Lato', Arial, sans-serif bold;
-width: 100%;
-height: 100%;
-text-decoration: none;
-display: block;
-
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .top-marketing .ganhe{
@@ -47,11 +32,6 @@ display: block;
   width: 150px;
   height: 100%;
   align-items: center;
-}
-
-.winelogo-carrinho{
-  width: 120px;
-  height: 120px;
 }
 
 .iconify-search-top{
