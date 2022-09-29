@@ -306,9 +306,16 @@ font-family: Arial, Helvetica, sans-serif;
  padding-top: 3%;
 } 
 
-.soluçoes{
+.imagen-01{
  height: 100%;
  width: 100%;
  padding-top: 1%;
  padding-bottom: 1%;
+}
+
+.imagen-02{
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
