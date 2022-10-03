@@ -16,6 +16,8 @@ var sobreRouter = require('./routes/sobre');
 var trabalheConoscoRouter = require('./routes/trabalheConosco');
 >>>>>>> 99db8b0797321e464d68fbd85776e2e883653e92
 
+var ContatoRouter = require('./routes/Contato');
+
 var app = express();
 
 
@@ -42,6 +44,13 @@ app.use('/users', usersRouter);
 >>>>>>> 99db8b0797321e464d68fbd85776e2e883653e92
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
+
+
+
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use('/Contato', ContatoRouter);
 
 
 // catch 404 and forward to error handler
