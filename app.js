@@ -5,21 +5,14 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-<<<<<<< HEAD
 var usersRouter = require('./routes/index');
 var sobreRouter = require('./routes/index');
 var trabalheConoscoRouter = require('./routes/index')
 var contatoRouter = require('./routes/index')
-=======
-var usersRouter = require('./routes/users');
-var sobreRouter = require('./routes/sobre');
-var trabalheConoscoRouter = require('./routes/trabalheConosco');
->>>>>>> 99db8b0797321e464d68fbd85776e2e883653e92
 
 var ContatoRouter = require('./routes/Contato');
 
 var app = express();
-
 
 
 // view engine setup
@@ -35,13 +28,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/sobre', sobreRouter);
-<<<<<<< HEAD
-=======
-
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
->>>>>>> 99db8b0797321e464d68fbd85776e2e883653e92
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
 
