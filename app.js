@@ -12,8 +12,8 @@ var contatoRouter = require('./routes/index')
 
 var ContatoRouter = require('./routes/Contato');
 
+ paginaInicial
 var app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -31,12 +31,6 @@ app.use('/sobre', sobreRouter);
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
 
-
-
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/Contato', ContatoRouter);
 
 
 // catch 404 and forward to error handler
