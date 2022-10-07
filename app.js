@@ -9,8 +9,8 @@ var usersRouter = require('./routes/index');
 var sobreRouter = require('./routes/index');
 var trabalheConoscoRouter = require('./routes/index')
 var contatoRouter = require('./routes/index')
+var BlogRouter = require('./routes/index')
 
-var ContatoRouter = require('./routes/Contato');
 
  paginaInicial
 var app = express();
@@ -30,6 +30,8 @@ app.use('/users', usersRouter);
 app.use('/sobre', sobreRouter);
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
+app.use('/Blog', BlogRouter);
+
 
 
 

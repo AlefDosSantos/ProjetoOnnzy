@@ -17,4 +17,12 @@ router.get('/contato', function(req, res, next) {
   res.render('contato', { title: 'Express' });
 });
 
+
+router.get('/Blog', function(req, res, next) {
+  res.render('Blog', { title: 'Express' });
+});
+
+
+
 module.exports = router;
+
