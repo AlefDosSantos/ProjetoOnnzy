@@ -1,79 +1,106 @@
 
 /* Inicio partials header css */
 
+@import url("https://use.typekit.net/elb7pmx.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-.top-marketing{
-background-color: #111111;
-color: white;
-text-align: center;
-font-family: 'Lato', Arial, sans-serif bold;
-padding-top: 10px;
-padding-bottom: 10px;
-}
 
-.top-marketing .ganhe{
-  color:gold;
-}
+
+/* Color Theme Swatches in Hex */
+.Azul-Book-1-hex { color: #003461; }
+.Azul-Book-2-hex { color: #459BE6; }
+.Azul-Book-3-hex { color: #0078E0; }
+.Azul-Book-4-hex { color: #1D4161; }
+.Azul-Book-5-hex { color: #005CAD; }
+
+/* Color Theme Swatches in RGBA */
+.Azul-Book-1-rgba { color: rgba(0, 52, 96, 1); }
+.Azul-Book-2-rgba { color: rgba(68, 154, 230, 1); }
+.Azul-Book-3-rgba { color: rgba(0, 119, 223, 1); }
+.Azul-Book-4-rgba { color: rgba(28, 65, 96, 1); }
+.Azul-Book-5-rgba { color: rgba(0, 91, 172, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Azul-Book-1-hsla { color: hsla(207, 100, 19, 1); }
+.Azul-Book-2-hsla { color: hsla(207, 76, 58, 1); }
+.Azul-Book-3-hsla { color: hsla(207, 100, 43, 1); }
+.Azul-Book-4-hsla { color: hsla(208, 53, 24, 1); }
+.Azul-Book-5-hsla { color: hsla(208, 100, 33, 1); }
 
 .menu{
-  background-color: white;
+  background-color: #FFFFFF;
   height: 100%;
   width: 100%;
   justify-content: center;
+  color:#595959;
 }
 
-.winelogo{
-  position: static;
-  width: 150px;
-  height: 100%;
-  align-items: center;
+li {
+  list-style-type: none;
+  color:#595959;
+  width: 170px;
 }
 
-.iconify-search-top{
-  font-size: 50px;
-  padding-top: 17px;
-  margin-right: 40px;
+.menu-services{
+  padding-top: 22px;
+  padding-bottom: 5px;
+  text-decoration: none;
 }
 
-.iconify-carrinho-top{
- font-size: 50px;
- padding-top: 17px;
+.iten1-onnzy{
+  font-family: good-times,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #1e87f0;
+}
+
+.iten1-onnzy li{
+  text-decoration: none;
+  color: #1e87f0;
+}
+
+ul a{
+  text-decoration: none;
 }
 
 header .menu .menu-services ul{
   bottom: 10;
-  box-shadow: 1px 1px 5px; 
   z-index: -1;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 header .menu ul{
   display: flex;
   text-align: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 header ul a{
   display: flex;
-  font-size: 20px;
-  font-family: 'Lato', Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
   font-weight:400;
-  color:#666666;
+  color:#595959;
   box-sizing: border-box;
   border-bottom-width: 6px;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
-.img-header{
-  background-color: #f5f5f5;
-}
+
 
 /* Fim partials header css */
 
@@ -82,61 +109,53 @@ header ul a{
 
 footer{
   font-size: 14px;
-  width: 100%;
-  height: 100%;
   font-family: 'Lato', Arial, sans-serif bold;
 
 }
 
+.iten1-onnzy-footer{
+  font-family: good-times,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  text-decoration: none;
+  color: #1e87f0;
+}
+
+.iten1-onnzy-footer li{
+  text-decoration: none;
+  color: #1e87f0;
+}
+
 .TDR{
-  background-color: white;
+  background-color:#FFFFFF;
   width: 100%;
   height: 100%;
-  color: #111;
+  color: #595959;
   text-align:  center;
   font-family: 'Lato', Arial, sans-serif bold;
 }
 
 ul .tex-shop-1-1{
   align-items: center;
-  padding: 10px 10px 10px 10px;
   text-align: center;
   justify-content: center;
-
 }
 
 .text-shop-1{
   width:100%;
   height: 17px;
   font: 14px;
-  color: #1d1d1b;
+  color: #595959;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
-
-.seBeber{
-  color: #1d1d1b;
-  font-family: 'Lato', Arial, sans-serif bold;
-}
-
-.row{
-  width: 100%;
-  height: 100%;
-}
-
-.Footer__separator{
-  margin-top: 20px;
-  border: 0.50 solid #d5d5d5;
-  box-sizing: border-box;
-
-}
-
 
 .text-shop-2{
   width:100%;
   height: 17px;
   font: 14px;
-  color: #1d1d1b;
+  color:  #595959;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
@@ -145,15 +164,14 @@ ul .tex-shop-1-1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px 10px 10px 10px ;
 }
 
 .text-rodape-site{
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   height:100%;
   padding: 50px 50px 50px 50px;
-  color: white;
+  color: #595959;
 }
 
 
@@ -161,13 +179,13 @@ ul .tex-shop-1-1{
   width:100%;
   height: 17px;
   font: 14px;
-  color: #1d1d1b;
+  color: #595959;
   text-transform: uppercase;
   margin: 0 0 5px;
 }
 
 .tex-shop-1-1{
-  color: #666;
+  color:  #595959;
   padding: 10px 50px 50px 0px;
 }
 
@@ -175,19 +193,14 @@ ul .tex-shop-1-1{
   padding: 1px;
 }
 
-li {
-  list-style-type: none;
-  color: #666;
-  width: 170px;
-}
 
 li a{
   text-decoration: none;
-  color: #666;
+  color:  #595959;
 }
 
 .list-social-media{
-  color: #666;
+  color:  #595959;
   padding: 10px 50px 50px 0px;
 }
 
@@ -203,14 +216,80 @@ li a{
 }
 
 .socialmedia{
-  background-color: #666666;
+  background-color:#FFFFFF;
 }
-
 
 /* Fim partials footer css */
 
 /*Inicio Pagina Index*/
 
+
+.imagem-index-topo{
+  background-color: #1e87f0;
+  color: white;
+}
+
+.index-500{
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.text-index-empresas{
+  font-size: 15px;
+  width: 40%;
+  height: 100%;
+  margin-left: 50%;
+  padding-bottom: 0px;
+}
+
+.tex-index-new{
+  font-size: 45px;
+  width: 40%;
+  margin-left: 50%;
+}
+
+.imagem-400{
+  margin-right: 50%;
+}
+
+.new-text-index{
+  font-size: 40px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
+}
+.saiba-mais{
+  font-size: 15px;
+  color: #003461;
+  background-color: white;
+}
+
+.text-services-pagina-index{
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.services-text-index{
+  display: flex;
+  justify-content: center;
+}
+
+.imagem-escritorio{
+  width: 60%;
+}
+
+.text-conheca-aqui{
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 22px;
+  color:#595959;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.container-services-onnzy{
+  background-color: #03258C;
+}
 
 .services-onnzy ul{
   background-color: #111;
@@ -228,36 +307,204 @@ li a{
   flex-wrap: wrap;
 }
 
-#carouselExampleIndicators{
+#carouselExampleCaptions{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-services-pagina-index{
+  margin-top: 50px;
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+
+
+
+#index-pagina-servicos{
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px ;
+}
+
+
+.services-onnzy{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background:rgb(243, 243, 243);
+}
+
+.services-onnzy-list{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px!important;
+
+}
+
+.services-onnzy-list a p{
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-decoration-none{
+  text-decoration: none;
+}
+
+.text-name-services{
+  font-size: 15px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 500px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-site{
+  background-color:#A1C7E0;
+}
+
+.color-ecommerce{
+  background-color: #044BD9
+}
+
+.color-design{
+  background-color: #044BD9
+}
+
+.color-sistemas{
+  background-color: #044BD9
+}
+
+.color-aplicativo{
+  background-color: #044BD9
+}
+
+.color-consultoria{
+  background-color: #044BD9
+}
+
+.img-index-services{
+  width: 100%;
+  border-radius: 20px!important;
+}
+
+.img-digital{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 75%;
+  height: 100%;
+  border-radius: 20px!important;
+}
+
+
+.text-digital-mundo{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Lato', Arial, sans-serif bold;
+
+}
+.new-services-index{
+  background-color: #4BA4F2;
+  color:#03258C;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
   width: 75%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  border-radius: 20px!important;
+
+}
+
+.accordion{
+  width: 75%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.perguntas-frequentes{
+  width: 75%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  font-family: 'Lato', Arial, sans-serif bold;
+  border-radius: 20px!important;
+}
+
+.perguntas-index{
+  text-align: left;
+}
+
+.seja-digital{
+  background-color: #4BA4F2;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', Arial, sans-serif bold;
+  font-size: 30px;
+}
+
+.faturamento{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 
 
+/* Color Theme Swatches in Hex */
+.orquidea-azul-1-hex { color: #03258C; }
+.orquidea-azul-2-hex { color: #044BD9; }
+.orquidea-azul-3-hex { color: #0583F2; }
+.orquidea-azul-4-hex { color: #4BA4F2; }
+.orquidea-azul-5-hex { color: #F2F2F2; }
 
+/* Color Theme Swatches in RGBA */
+.orquidea-azul-1-rgba { color: rgba(2, 37, 140, 1); }
+.orquidea-azul-2-rgba { color: rgba(4, 75, 216, 1); }
+.orquidea-azul-3-rgba { color: rgba(4, 131, 242, 1); }
+.orquidea-azul-4-rgba { color: rgba(75, 164, 242, 1); }
+.orquidea-azul-5-rgba { color: rgba(242, 242, 242, 1); }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Color Theme Swatches in HSLA */
+.orquidea-azul-1-hsla { color: hsla(225, 96, 28, 1); }
+.orquidea-azul-2-hsla { color: hsla(219, 96, 43, 1); }
+.orquidea-azul-3-hsla { color: hsla(208, 96, 48, 1); }
+.orquidea-azul-4-hsla { color: hsla(208, 86, 62, 1); }
+.orquidea-azul-5-hsla { color: hsla(0, 0, 95, 1); }
 
 
 /*Fim Pagina Index*/
@@ -287,6 +534,8 @@ li a{
  padding-top: 1%;
  padding-bottom: 1%;
 }
+
+
 
 /*Inicio Pagina Trabalhe Conosco*/
 .titulo{

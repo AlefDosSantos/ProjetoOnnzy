@@ -12,8 +12,8 @@ var contatoRouter = require('./routes/index')
 var BlogRouter = require('./routes/index')
 
 
+ paginaInicial
 var app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -31,8 +31,6 @@ app.use('/sobre', sobreRouter);
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
 app.use('/Blog', BlogRouter);
-
-
 
 
 
