@@ -568,3 +568,76 @@ font-family: Arial, Helvetica, sans-serif;
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
+/*Começo da pagina (Contato)*/
+
+.contato{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 2%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+
+.logo{
+  height: 100%;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+
+}
+
+.a{
+  color: white;
+}
+
+.comercial{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.email{
+  text-align: center;
+  padding-top: 7%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 80px;
+}
+
+.nome{
+  padding-bottom: 14px;
+  text-align: center;
+
+}
+
+.sobrenome{
+  text-align: center;
+  
+  padding-right:38px ;
+  padding-bottom: 14px;
+}
+
+.email-02{
+  text-align: center;
+  padding-left:9px ;
+  padding-right:3px ;
+  padding-bottom: 14px;
+}
+ 
+.telefone{
+  text-align: center;
+  
+  padding-right:16px ;
+  
+}
+
+.botao{
+  margin-left: 49%;
+  margin-top: 20px;
+  
+}
+
+
+/*FIM da pagina (Contato)*/

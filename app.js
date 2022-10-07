@@ -10,6 +10,9 @@ var sobreRouter = require('./routes/index');
 var trabalheConoscoRouter = require('./routes/index')
 var contatoRouter = require('./routes/index')
 
+var ContatoRouter = require('./routes/Contato');
+
+ paginaInicial
 var app = express();
 
 // view engine setup
@@ -27,6 +30,7 @@ app.use('/users', usersRouter);
 app.use('/sobre', sobreRouter);
 app.use('/trabalheConosco', trabalheConoscoRouter);
 app.use('/contato', contatoRouter);
+
 
 
 // catch 404 and forward to error handler
